@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Welcome to my Page</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    Hello Shaiaz!!
+    <div>
+      <h1>Demo Page of Shaiaz Ali</h1>
+      <p>Description: This is a demo page, created by Shaiaz Ali.</p>
+      <p>
+        Shaiaz Ali <br />
+        Bachelor of Computer Science <br />
+        American International University - Bangladesh <br />
+        <br />
+        Email: contact@alishaiaz.me <br />
+        FB: <a href="https://facebook.com/alishaiaz">facebook.com/alishaiaz</a
+        ><br />
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/alishaiaz/"
+          >linkedin.com/in/alishaiaz</a
+        >
+        <br />
+        Github: <a href="https://github.com/alishaiaz">github.com/alishaiaz</a>
+        <br />
+      </p>
+    </div>
+    <div>
+      <span id="jsTest"></span>
+      <input id="testInp" type="text" />
+      <button onclick="testJS()"></button>
+    </div>
+
+    <script>
+      function testJS() {
+        document.getElementById("jsTest").innerHTML =
+          document.getElementById("testInp").value;
+      }
+    </script>
   </body>
 </html>
