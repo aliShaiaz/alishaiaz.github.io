@@ -10,7 +10,7 @@ const BasicPage = () => {
         Bachelor of Computer Science <br />
         American International University - Bangladesh <br />
         <br />
-        Email: contact@alishaiaz.me <br />
+        Email: shaiaz.ali@gmail.com <br />
         FB: <a href="https://facebook.com/alishaiaz">facebook.com/alishaiaz</a>
         <br />
         LinkedIn:
