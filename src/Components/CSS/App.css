@@ -1,0 +1,5 @@
+@import "./basicPage.css";
+
+#root {
+  background: linear-gradient(45deg, rgb(114, 21, 137), black);
+}

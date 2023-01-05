@@ -1,0 +1,19 @@
+.basicPage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.196);
+}
+.basicPage a {
+  text-decoration: none;
+  /* color: black; */
+  color: white;
+  font-weight: bold;
+}
+
+.basicPage a:hover {
+  color: blueviolet;
+  font-size: large;
+}
