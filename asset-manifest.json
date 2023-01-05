@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/www.alishaiaz.me/static/css/main.433f3e91.css",
+    "main.css": "/www.alishaiaz.me/static/css/main.2d586352.css",
     "main.js": "/www.alishaiaz.me/static/js/main.b265f5ee.js",
     "static/js/787.0dfde4b2.chunk.js": "/www.alishaiaz.me/static/js/787.0dfde4b2.chunk.js",
     "index.html": "/www.alishaiaz.me/index.html",
-    "main.433f3e91.css.map": "/www.alishaiaz.me/static/css/main.433f3e91.css.map",
+    "main.2d586352.css.map": "/www.alishaiaz.me/static/css/main.2d586352.css.map",
     "main.b265f5ee.js.map": "/www.alishaiaz.me/static/js/main.b265f5ee.js.map",
     "787.0dfde4b2.chunk.js.map": "/www.alishaiaz.me/static/js/787.0dfde4b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.433f3e91.css",
+    "static/css/main.2d586352.css",
     "static/js/main.b265f5ee.js"
   ]
 }
