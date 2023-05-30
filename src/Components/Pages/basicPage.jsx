@@ -1,24 +1,20 @@
 import React from "react";
+import URLs from "./url";
 
 const BasicPage = () => {
   return (
     <div className="basicPage">
-      <h1>Demo Page of Shaiaz Ali</h1>
-      <p>Description: This is a demo page, created by Shaiaz Ali.</p>
+      <h1>Shaiaz Ali</h1>
       <p>
-        Shaiaz Ali <br />
         Bachelor of Computer Science <br />
         American International University - Bangladesh <br />
         <br />
         Email: shaiaz.ali@gmail.com <br />
-        FB: <a href="https://facebook.com/alishaiaz">facebook.com/alishaiaz</a>
+        FB: <URLs url={"https://facebook.com/alishaiaz"} />
         <br />
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/alishaiaz/">
-          linkedin.com/in/alishaiaz
-        </a>
+        LinkedIn: <URLs url={"https://www.linkedin.com/in/alishaiaz/"} />
         <br />
-        Github: <a href="https://github.com/alishaiaz">github.com/alishaiaz</a>
+        Github: <URLs url={"https://github.com/alishaiaz"} />
         <br />
       </p>
       <div>
