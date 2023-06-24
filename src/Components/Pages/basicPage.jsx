@@ -10,12 +10,27 @@ const BasicPage = () => {
         American International University - Bangladesh <br />
         <br />
         Email: shaiaz.ali@gmail.com <br />
-        FB: <URLs url={"https://facebook.com/alishaiaz"} />
+        {/* FB:{" "} */}
+        <URLs
+          url={"https://facebook.com/alishaiaz.official"}
+          placeHolder={"Facebook"}
+        />
         <br />
-        LinkedIn: <URLs url={"https://www.linkedin.com/in/alishaiaz/"} />
+        {/* LinkedIn:{" "} */}
+        <URLs
+          url={"https://www.linkedin.com/in/alishaiaz/"}
+          placeHolder={"Linked In"}
+        />
         <br />
-        Github: <URLs url={"https://github.com/alishaiaz"} />
+        {/* Github:{" "} */}
+        <URLs url={"https://github.com/alishaiaz"} placeHolder={"Github"} />
         <br />
+        <URLs
+          url={
+            "https://github.com/aliShaiaz/resume/blob/main/_Resume%20of%20Shaiaz%20Ali.pdf"
+          }
+          placeHolder={"Resume of Shaiaz Ali"}
+        />
       </p>
       <div>
         <h2>Porfolio:</h2>

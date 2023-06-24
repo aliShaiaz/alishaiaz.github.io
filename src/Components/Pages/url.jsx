@@ -1,9 +1,9 @@
 import React from "react";
 
-const URLs = ({ url }) => {
+const URLs = ({ url, placeHolder }) => {
   return (
     <>
-      <a href={url}>facebook.com/alishaiaz</a>
+      <a href={url}>{placeHolder}</a>
     </>
   );
 };
