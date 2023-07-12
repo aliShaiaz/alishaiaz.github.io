@@ -40,7 +40,9 @@ const BasicPage = () => {
           </a>
         </div>
         <div>
-          <a href="https://p-cf.alishaiaz.me">Crowdfunding Website</a>
+          <a href="https://basiccrowdfundingwebsite.000webhostapp.com/">
+            Crowdfunding Website
+          </a>
         </div>
         <div>
           <a href="https://github.com/aliShaiaz/Crowdfunding-Website">
