@@ -4,11 +4,7 @@ import "./Components/CSS/App.css";
 import BasicPage from "./Components/Pages/basicPage";
 
 function App() {
-  return (
-    <React.Fragment>
-      <BasicPage />
-    </React.Fragment>
-  );
+  return <BasicPage />;
 }
 
 export default App;

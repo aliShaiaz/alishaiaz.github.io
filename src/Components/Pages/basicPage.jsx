@@ -1,5 +1,6 @@
 import React from "react";
-import URLs from "./url";
+import Links from "../Links";
+import { Portfolio, Contact } from "../../files/Info";
 
 const BasicPage = () => {
   return (
@@ -10,44 +11,23 @@ const BasicPage = () => {
         American International University - Bangladesh <br />
         <br />
         Email: shaiaz.ali@gmail.com <br />
-        {/* FB:{" "} */}
-        <URLs
-          url={"https://facebook.com/alishaiaz.official"}
-          placeHolder={"Facebook"}
-        />
-        <br />
-        {/* LinkedIn:{" "} */}
-        <URLs
-          url={"https://www.linkedin.com/in/alishaiaz/"}
-          placeHolder={"Linked In"}
-        />
-        <br />
-        {/* Github:{" "} */}
-        <URLs url={"https://github.com/alishaiaz"} placeHolder={"Github"} />
-        <br />
-        <URLs
-          url={
-            "https://github.com/aliShaiaz/resume/blob/main/_Resume%20of%20Shaiaz%20Ali.pdf"
-          }
-          placeHolder={"Resume of Shaiaz Ali"}
-        />
+        <h2>Contact Information:</h2>
+        <div className="displayBlock">
+          {Contact.map((contact) => (
+            <Links key={contact.name} text={contact.name} link={contact.url} />
+          ))}
+        </div>
       </p>
       <div>
-        <h2>Porfolio:</h2>
-        <div>
-          <a href="https://www.alishaiaz.me/dec">
-            Electronic Devices Project Website (Group 7)
-          </a>
-        </div>
-        <div>
-          <a href="https://basiccrowdfundingwebsite.000webhostapp.com/">
-            Crowdfunding Website
-          </a>
-        </div>
-        <div>
-          <a href="https://github.com/aliShaiaz/Crowdfunding-Website">
-            Crowdfunding Website (Repo)
-          </a>
+        <h2>Porfolio Projects:</h2>
+        <div className="displayBlock" style={{}}>
+          {Portfolio.map((portfolio) => (
+            <Links
+              key={portfolio.name}
+              text={portfolio.name}
+              link={portfolio.url}
+            />
+          ))}
         </div>
       </div>
     </div>
